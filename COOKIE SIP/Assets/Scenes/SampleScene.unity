@@ -613,6 +613,55 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &725900560
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 725900562}
+  - component: {fileID: 725900561}
+  m_Layer: 0
+  m_Name: AuidoMangement
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &725900561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 725900560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d271668a6de909d41abfb7e1089a4032, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AudioManagement
+  background: {fileID: 8300000, guid: 1773b7503f632804eb2c7f3216a74d54, type: 3}
+  Door: {fileID: 0}
+  Coins: {fileID: 8300000, guid: 98003b0efa93333429418eb28bfaf231, type: 3}
+  SpeechBubbleReview: {fileID: 8300000, guid: 6073686d514bdc04882dbb2e8f24caf5, type: 3}
+  Taskboard: {fileID: 8300000, guid: 9b7e55b32019c3f4bb3f15f08bdd3054, type: 3}
+--- !u!4 &725900562
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 725900560}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &879142835
 GameObject:
   m_ObjectHideFlags: 0
@@ -898,3 +947,4 @@ SceneRoots:
   - {fileID: 293643476}
   - {fileID: 879142837}
   - {fileID: 1525061514}
+  - {fileID: 725900562}
