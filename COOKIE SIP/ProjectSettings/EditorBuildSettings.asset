@@ -8,6 +8,33 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 0
+    path: Assets/Scenes/Worker 1 Ophelia.unity
+    guid: 5f54d95db118d0447815ad9c4b251d59
+  - enabled: 0
+    path: Assets/Scenes/worker choice 103.unity
+    guid: 32224fc61578fb04a8743705e354035a
+  - enabled: 0
+    path: Assets/Scenes/Worker choice 101.unity
+    guid: 97a2c8c6fe75fbd4086b2e459374cb40
+  - enabled: 1
+    path: Assets/Scenes/Worker1(Ophelia).unity
+    guid: bc5150e586f847f4692cc25024353caa
+  - enabled: 1
+    path: Assets/Scenes/Worker2(Quinn).unity
+    guid: d43af5bc5aa876c42bb49e5711fe4740
+  - enabled: 1
+    path: Assets/Scenes/Worker3(Nora).unity
+    guid: d32f9ab63b4113643a244939f321247d
+  - enabled: 1
+    path: Assets/Worker choice.unity
+    guid: f92cdd6762a5ea44faee4039ab02e4ee
+  - enabled: 1
+    path: Assets/Scenes/SceneMenu101.unity
+    guid: 7a982324ea9592c409e0d88a764eaa9b
+  - enabled: 0
+    path: Assets/worker choice 2.unity
+    guid: dc777ad0d7b684343a785eb74f1bc342
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
